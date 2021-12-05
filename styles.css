@@ -4,5 +4,24 @@
 :root {
     --primary-color: #7267CB;
     --secondary-color: white;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ 
+.nav-bar {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+   
+   
+   
+  
 
 }
