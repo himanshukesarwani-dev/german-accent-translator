@@ -28,16 +28,22 @@ body {
     width: 200px;
     height: 200px;
 }
+
+.align-center {
+    text-align: center;
+}
  
 .button {
     background-color: var(--primary-color);
     border: none;
     border-radius: 7px;
     color: var(--secondary-color);
+    cursor: pointer;
     display: block;
     font-weight: bold;
     font-size: 1rem;
     margin: auto;
+    margin-bottom: 100px;
     padding: 1rem;
        
 }
@@ -49,7 +55,7 @@ textarea {
     display: block;
     font-size: 1rem;
     height: 50%;
-    margin: 5rem auto;
+    margin: 1px auto 80px auto;
     width: 50%;
 }
 
